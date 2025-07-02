@@ -1,0 +1,4 @@
+what is scripting language?
+-> A scripting language is a lightweight, interpreted language used to automate tasks, enhance applications, or glue programs together.
+
+js run 
