@@ -1,4 +1,118 @@
 what is scripting language?
 -> A scripting language is a lightweight, interpreted language used to automate tasks, enhance applications, or glue programs together.
 
-js run 
+js run at browser using engine 
+like: chrome v8 engine.
+
+js 1995 m lonch hui thi
+founder -> brendan eich
+name -> mocha, livescript, then final javascript
+Fun Fact: JavaScript ka Java se koi lena dena nahi. Sirf Java ke hype ka faayda uthane ke liye naam milta julta rakha gaya tha.
+
+# variable
+what is variable?
+-> variable is a container for storig data(values,expression etc.)
+
+# 3 types of variable in JavaScript
+| Keyword | Scope    | Reassignable  | Hoisting        | Recommended?                 |
+| ------- | -------- | --------------| -------------   | -----------------------------|
+| `var`   | Function |  Yes          | Yes (but weird) |  Avoid                       |
+| `let`   | Block    |  Yes          | No              |  Yes                         |
+| `const` | Block    |  No           | No              |  Use when value won't change |
+
+
+var,let,const
+var -> redeclear, Reassignable, functional scope
+let -> not, Reassignable, block scope
+const -> not, not, block scope
+
+# operaters
+-> An operator is a special symbol or keyword used to perform operations on values or variables.
+
+
+there are 3 types of operaters.
+| Type    | Operands | Example               | Use For                          |
+| ------- | -------- | --------------------- | -------------------------------- |
+| Unary   | 1        | `-x`, `++x`, `typeof` | Type check, value change         |
+| Binary  | 2        | `x + y`, `a === b`    | All normal ops (math, logic etc) |
+| Ternary | 3        | `cond ? a : b`        | One-line if-else decision        |
+
+🧭 1. Unary Operators (1 Operand)
+Sirf ek value pe kaam — solo hero
+| Operator | Use                            | Example           | Result         |
+| -------- | ------------------------------ | ----------------- | -------------- |
+| `+`      | Convert to number              | `+"5"`            | `5`            |
+| `-`      | Negate value                   | `-3`              | `-3`           |
+| `++`     | Increment                      | `let a = 1; ++a`  | `2`            |
+| `--`     | Decrement                      | `let b = 5; --b`  | `4`            |
+| `!`      | Logical NOT                    | `!true`           | `false`        |
+| `typeof` | Type check                     | `typeof "Ayush"`  | `"string"`     |
+| `void`   | Ignore result                  | `void 0`          | `undefined`    |
+| `delete` | Remove object property         | `delete obj.name` | `true/false`   |
+| `await`  | Wait for promise (in async fn) | `await fetch()`   | resolves value |
+
+Used in: condition checking, counters, type checking, object manipulation
+-------------------------------------------------------------------------------------
+
+2. Binary Operators (2 Operands)
+
+A. Arithmetic Operators
+| Symbol | Meaning             | Example         |
+| ------ | ------------------- | --------------- |
+| `+`    | Addition            | `10 + 5` = `15` |
+| `-`    | Subtraction         | `10 - 5` = `5`  |
+| `*`    | Multiplication      | `10 * 2` = `20` |
+| `/`    | Division            | `10 / 2` = `5`  |
+| `%`    | Modulus (remainder) | `10 % 3` = `1`  |
+| `**`   | Exponentiation      | `2 ** 3` = `8`  |
+
+B. Assignment Operators
+| Symbol | Shortcut for | Meaning           |
+| ------ | ------------ | ----------------- |
+| `=`    | —            | Assign value      |
+| `+=`   | `x = x + y`  | Add & assign      |
+| `-=`   | `x = x - y`  | Subtract & assign |
+| `*=`   | `x = x * y`  | Multiply & assign |
+| `/=`   | `x = x / y`  | Divide & assign   |
+| `%=`   | `x = x % y`  | Modulus & assign  |
+| `**=`  | `x = x ** y` | Power & assign    |
+
+ C. Comparison Operators
+| Symbol | Meaning          | Example     | Result  |
+| ------ | ---------------- | ----------- | ------- |
+| `==`   | Equal (loose)    | `5 == "5"`  | `true`  |
+| `===`  | Strict equal     | `5 === "5"` | `false` |
+| `!=`   | Not equal        | `5 != "5"`  | `false` |
+| `!==`  | Strict not equal | `5 !== "5"` | `true`  |
+| `>`    | Greater than     | `5 > 3`     | `true`  |
+| `<`    | Less than        | `5 < 3`     | `false` |
+| `>=`   | Greater or equal | `5 >= 5`    | `true`  |
+| `<=`   | Less or equal    | `3 <= 5`    | `true`  |
+
+D. Logical Operators
+| Symbol | Meaning                        | Example                   |
+| ------ | ------------------------------ | ------------------------- |
+| `&&`   | AND                            | `true && false` → `false` |
+| \`     | OR                             | `true||false`→`true`      |
+| `!`    | NOT (Unary, but used here too) | `!false` → `true`         |
+
+--------------------------------------------------------------------------------------------------
+
+3. Ternary Operator (3 Operands)
+Ek hi JavaScript operator jisme 3 parts hote hain.
+
+Syntax:
+condition ? value_if_true : value_if_false;
+
+Example:
+let age = 20;
+let access = (age >= 18) ? "Allowed" : "Denied";
+
+
+____________________________________________________________________________________
+ledder if else -> multiple condition
+
+nested if else
+
+-------------------------------------
+loops
