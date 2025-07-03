@@ -110,9 +110,55 @@ let access = (age >= 18) ? "Allowed" : "Denied";
 
 
 ____________________________________________________________________________________
-ledder if else -> multiple condition
 
-nested if else
+# conditional statement
+-> In JavaScript, conditional statements are used to perform different actions based on different conditions. Basically, they make your code "think" and make decisions, jaise kisi traffic signal ka kaam hota hai.
+
+1. if 
+-> Runs block of code isf the condition is true.
+Syntax with example:
+    let age = 20;
+    if (age >= 18) {
+    console.log("You are eligible to vote.");
+    }
+
+2. if...else
+-> Runs one block if the condition is true, another block if else
+Syntax with example:
+    let age = 20;
+    if(age == 18){
+        console.log("Your are eligible....)
+    }
+    else{
+        console.log("You are not eligible.....)
+    }
+
+3. ledder if..elseif...else -> multiple condition
+-> multiple condition, checked one by one.
+Syntax with example:
+    let marks = 75;
+    if (marks >= 90) {
+    console.log("Grade: A");
+    } else if (marks >= 70) {
+    console.log("Grade: B");
+    } else if (marks >= 50) {
+    console.log("Grade: C");
+    } else {
+    console.log("Fail");
+    }
+
+4. nested if else
+Syntax :
+    if (condition1) {
+        if (condition2) {
+            // do something
+        } else {
+            // do something else
+        }
+    } else {
+        // outer else block
+    }
+
 
 -------------------------------------
 loops
