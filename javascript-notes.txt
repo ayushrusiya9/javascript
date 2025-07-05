@@ -241,3 +241,7 @@ Syntax with example:
 
 2. continue
 -> used to skip any itration.
+
+
+----------------------------------------------
+# array
