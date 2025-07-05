@@ -21,6 +21,8 @@
 //     }
 //     document.write('<br>')
 // }
+
+
 //x patern
 
 for(let r = 1; r <= 5; r++){
