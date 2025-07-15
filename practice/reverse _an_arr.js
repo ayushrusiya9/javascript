@@ -1,11 +1,21 @@
 //reverse the array
-let arr = [10,20,30,40,50]
-let arr_reverse =[]
 
-for(let i = 0; i<=arr.length; i++){
-    if(arr[i] < arr[i+1]){
-        arr1.unshift(i)
+function sortReverse(arr){
+    let n = arr.length;
+
+    for(let i = 0; i < n; i++){
+        for(let j = 0; j < n - i ; j++){
+            if(arr[j] < arr[j + 1]){
+                let temp = arr[j]
+                arr[j] = arr[j+1]
+                arr[j + 1] = temp
+            }
+        }
     }
+    return arr;
 }
 
-console.log(arr1)
+let numbers = [10,20,30,40,50]
+let reverse = sortReverse(numbers)
+console.log(reverse)
+
