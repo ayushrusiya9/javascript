@@ -28,3 +28,8 @@ function blue(){
     let b = document.querySelector("#ayush")
     b.style.color="red"
 }
+
+function img(){
+    let a = document.querySelector("#cimg")
+    a.src = "service-1.jpg"
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .main {
+            background-image: url(./img1.jpg);
+            object-fit: cover;
+            /* background-repeat: no-repeat; */
+            width: 500px;
+            height: 400px;
+        }
+
+        .clickImages {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hero">
+        <div class="main">
+
+        </div>
+    </div>
+
+    <div class="clickImages">
+        <img src="about-thumb.png" alt="" width="250px" onhover="img1()">
+        <img src="service-1.jpg" onclick="img2()" alt="" width="250px">
+        <img src="service-3.jpg" alt="" onclick="img3()" width="250px">
+        <img src="process-thumb.jpg" onclick="img4()" alt="" width="250px">
+    </div>
+    <script src="tricky.js"></script>
+</body>
+
+</html>

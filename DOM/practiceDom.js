@@ -1,14 +1,14 @@
 function changecolor(){
     let box = document.querySelector(".text")
-    box.style.backgroundColor = "yellow"
+    box.style.color = "yellow"
 }
 
 const green = ()=>{
     let greenBtn = document.querySelector(".box")
-    greenBtn.style.backgroundColor = "green" 
+    greenBtn.style.backgroundImage = "url(./about-thumb.png)"
 }
 
 const aqua = ()=>{
     let aquaBtn = document.querySelector(".box")
-    aquaBtn.style.backgroundColor = "aqua" 
+    aquaBtn.style.backgroundImage = "url(./process-thumb.jpg)"
 }
