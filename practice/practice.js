@@ -33,7 +33,7 @@ console.log(false * 10);
 console.log("3" * true);   
 console.log("5" / "0");    
 console.log(0 / 0);         
-console.log([] + []);     
+console.log([] + []);       
 console.log({} + []);     
 console.log([] + {});     
 console.log({} + {});     
