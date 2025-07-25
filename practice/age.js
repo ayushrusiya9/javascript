@@ -2,6 +2,5 @@
 function age(a){
     (a >= 18) ? alert('You are adult!!') : alert('You are under 18')
 }
-
 let usr = prompt("Enter Your age......")
 age(usr)
