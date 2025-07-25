@@ -8,7 +8,7 @@ function checkPrime(n){
     let i = 2;
     while(i < n){
         if(n % i == 0 ){
-            return `Given number ${n} is not a prime number`
+            return `Given number ${n} is not a prime number.`
         }
         i++;
     }
