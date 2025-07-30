@@ -41,13 +41,23 @@ let Aoo = [{
 
 // let s = document.getElementById("screen");
 
-Aoo.map( (e)=>{
-    // console.log(e.name)
-    document.getElementById("screen").innerHTML += e.name;
-    document.getElementById("age").innerHTML += e.age;
-    document.getElementById("city").innerHTML += e.city;
-    // s.innerHTML += `<h1>${e.name}</h1> </br>
-    // // <p>${e.age}</p></br
-    // // <p>${e.city}</p> </br>
-    // // `;
+// Aoo.map( (e)=>{
+//     // console.log(e.name)
+//     document.getElementById("screen").innerHTML += e.name;
+//     document.getElementById("age").innerHTML += e.age;
+//     document.getElementById("city").innerHTML += e.city;
+//     // s.innerHTML += `<h1>${e.name}</h1> </br>
+//     // // <p>${e.age}</p></br
+//     // // <p>${e.city}</p> </br>
+//     // // `;
+// })
+
+let show = document.getElementById("show");
+
+Aoo.map((e) => {
+    show.innerHTML += `<tr>
+        <td>${e.name}</td>
+        <td>${e.age}</td>
+        <td>${e.city}</td>
+    </tr>`;
 })
