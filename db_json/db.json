@@ -1,27 +1,38 @@
 {
-    "ticket":[{
-        "name":"Ayush Rusiya",
-        "email":"ayush@gmail.com",
-        "aadhar":12133212,
-        "seatNo":"11A",
-        "date":"17-07-2025"
-    },{
-        "name":"piyush Rusiya",
-        "email":"piyush@gmail.com",
-        "aadhar":27654512,
-        "seatNo":"10A",
-        "date":"17-07-2025"
-    },{
-        "name":"Ayush Rusiya",
-        "email":"ayush@gmail.com",
-        "aadhar":12133212,
-        "seatNo":"11A",
-        "date":"17-07-2025"
-    },{
-        "name":"Ayush Rusiya",
-        "email":"ayush@gmail.com",
-        "aadhar":12133212,
-        "seatNo":"11A",
-        "date":"17-07-2025"
-    }]
+  "ticket": [
+    {
+      "name": "piyush Rusiya",
+      "email": "piyush@gmail.com",
+      "aadhar": 27654512,
+      "seatNo": "10A",
+      "date": "17-07-2025",
+      "id": "0feb"
+    },
+    {
+      "name": "Ayush Rusiya",
+      "email": "ayush@gmail.com",
+      "aadhar": 12133212,
+      "seatNo": "11A",
+      "date": "17-07-2025",
+      "id": "542a"
+    },
+    {
+      "id": "45ab",
+      "name": "Ravi Gour",
+      "aadhar": "741258963254",
+      "email": "ravi@gmail.com",
+      "city": "Bhopal",
+      "seatNo": "11d",
+      "date": "2025-08-07"
+    },
+    {
+      "id": "719f",
+      "name": "Sharad Rusiya",
+      "aadhar": "78569547854",
+      "email": "sharad@gmail.com",
+      "city": "Gwaliar",
+      "seatNo": "21w",
+      "date": "2025-08-23"
+    }
+  ]
 }

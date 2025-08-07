@@ -13,8 +13,10 @@ let fatchData = async () => {
         <td>${e.name}</td>
         <td>${e.email}</td>
         <td>${e.aadhar}</td>
+        <td>${e.city}</td>
         <td>${e.seatNo}</td>
         <td>${e.date}</td>
+        <td onclick="del('${e.id}')">DELETE</td>
         </tr>
     `
  })
@@ -23,3 +25,9 @@ let fatchData = async () => {
 }
 
 fatchData()
+
+let del = (id) =>{
+
+    let url =  `http://localhost:3000/ticket/${id}`
+    fetch(url, {method:"DELETE"})
+}
