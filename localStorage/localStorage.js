@@ -13,4 +13,4 @@ show.innerHTML = localStorage.getItem("username")
 let = ()=>{
     localStorage.removeItem("username")
     location.reload()
-}
+}   
