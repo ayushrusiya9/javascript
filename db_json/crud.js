@@ -16,6 +16,7 @@ let fatchData = async () => {
         <td>${e.city}</td>
         <td>${e.seatNo}</td>
         <td>${e.date}</td>
+        <td onclick="OpenForm('${e.id}')" >Edit</td>
         <td onclick="del('${e.id}')">DELETE</td>
         </tr>
     `

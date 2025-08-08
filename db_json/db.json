@@ -1,29 +1,12 @@
 {
   "ticket": [
     {
-      "name": "piyush Rusiya",
-      "email": "piyush@gmail.com",
-      "aadhar": 27654512,
-      "seatNo": "10A",
-      "date": "17-07-2025",
-      "id": "0feb"
-    },
-    {
-      "name": "Ayush Rusiya",
-      "email": "ayush@gmail.com",
-      "aadhar": 12133212,
-      "seatNo": "11A",
-      "date": "17-07-2025",
-      "id": "542a"
-    },
-    {
-      "id": "45ab",
       "name": "Ravi Gour",
-      "aadhar": "741258963254",
       "email": "ravi@gmail.com",
-      "city": "Bhopal",
-      "seatNo": "11d",
-      "date": "2025-08-07"
+      "aadhar": "741258963254",
+      "seatNo": "11L",
+      "date": "2025-08-07",
+      "id": "45ab"
     },
     {
       "id": "719f",
@@ -33,6 +16,24 @@
       "city": "Gwaliar",
       "seatNo": "21w",
       "date": "2025-08-23"
+    },
+    {
+      "id": "9f14",
+      "name": "KOMAL",
+      "aadhar": "78569547854",
+      "email": "komal@gmail.com",
+      "city": "Gwaliar",
+      "seatNo": "11a",
+      "date": "2025-08-09"
+    },
+    {
+      "id": "bf21",
+      "name": "mahak",
+      "aadhar": "78569547854",
+      "email": "mahak@gmail.com",
+      "city": "Indore",
+      "seatNo": "11Q",
+      "date": "2025-08-15"
     }
   ]
 }
