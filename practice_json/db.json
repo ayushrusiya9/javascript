@@ -1,40 +1,36 @@
 {
-    "Ticket":[
-  {
-    "ticket_id": 101,
-    "event": "Music Concert",
-    "holder_name": "Ayush Rusiya",
-    "seat_number": "A12",
-    "price": 1500
-  },
-  {
-    "ticket_id": 102,
-    "event": "Movie Premiere",
-    "holder_name": "Ravi Sharma",
-    "seat_number": "B7",
-    "price": 300
-  },
-  {
-    "ticket_id": 103,
-    "event": "Cricket Match",
-    "holder_name": "Neha Verma",
-    "seat_number": "C25",
-    "price": 1200
-  },
-  {
-    "ticket_id": 104,
-    "event": "Theatre Play",
-    "holder_name": "Amit Kumar",
-    "seat_number": "D10",
-    "price": 800
-  },
-  {
-    "ticket_id": 105,
-    "event": "Tech Conference",
-    "holder_name": "Priya Singh",
-    "seat_number": "VIP-01",
-    "price": 5000
-  }
-]
-
+  "Ticket": [
+    {
+      "ticket_id": 102,
+      "event": "Movie Premiere",
+      "holder_name": "Ravi Sharma",
+      "seat_number": "B7",
+      "price": 300,
+      "id": "6b99"
+    },
+    {
+      "ticket_id": 103,
+      "event": "Cricket Match",
+      "holder_name": "Neha Verma",
+      "seat_number": "C25",
+      "price": 1200,
+      "id": "1a6b"
+    },
+    {
+      "ticket_id": 104,
+      "event": "Theatre Play",
+      "holder_name": "Amit Kumar",
+      "seat_number": "D10",
+      "price": 800,
+      "id": "d27e"
+    },
+    {
+      "id": "82aa",
+      "ticket_id": "121212",
+      "event": "music",
+      "holder_name": "ayush",
+      "seat_number": "12s",
+      "price": "12000"
+    }
+  ]
 }
