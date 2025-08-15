@@ -1,11 +1,11 @@
 {
   "Ticket": [
     {
-      "ticket_id": 102,
-      "event": "Movie Premiere",
-      "holder_name": "Ravi Sharma",
-      "seat_number": "B7",
-      "price": 300,
+      "ticket_id": {},
+      "event": {},
+      "holder_name": {},
+      "seat_number": {},
+      "price": {},
       "id": "6b99"
     },
     {
