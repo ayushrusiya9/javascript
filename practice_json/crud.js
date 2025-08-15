@@ -51,3 +51,34 @@ let uploadData = ()=>{
         
     )
 }
+
+let openEditForm = (id)=>{
+    let url = `http://localhost:3000/Ticket/${id}`
+
+    let res = fetch(url)
+
+    let data = res.json()
+
+    document.querySelector(".openform").innerHTML += `
+         <form id="ticketForm">
+        <label for="ticket_id">Ticket ID:</label>
+        <input type="number" id="ticket_id" name="ticket_id" value="${ data.ticket_id}"><br><br>
+
+        <label for="event">Event Name:</label>
+        <input type="text" id="event" name="event" value="${ data.event}"><br><br>
+
+        <label for="holder_name">Holder Name:</label>
+        <input type="text" id="holder_name" name="holder_name" ><br><br>
+
+        <label for="seat_number">Seat Number:</label>
+        <input type="text" id="seat_number" name="seat_number" required><br><br>
+
+        <label for="price">Price:</label>
+        <input type="number" id="price" name="price" required><br><br>
+
+
+        <button type="submit" onclick="uploadData()">Submit</button>
+    </form>
+    `
+
+}
