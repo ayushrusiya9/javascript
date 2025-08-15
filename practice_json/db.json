@@ -1,11 +1,11 @@
 {
   "Ticket": [
     {
-      "ticket_id": {},
-      "event": {},
-      "holder_name": {},
-      "seat_number": {},
-      "price": {},
+      "ticket_id": "543",
+      "event": "Movie Premiere",
+      "holder_name": "SHARAD",
+      "seat_number": "b9",
+      "price": "1200",
       "id": "6b99"
     },
     {

@@ -84,11 +84,11 @@ let openEditForm = async (id)=>{
 }
 
 let finalEdita = async (id)=>{
-    let edit_ticketid = document.querySelector("#edit_ticket_id")
-    let editevent = document.querySelector("#edit_event")
-    let editgoldername = document.querySelector("#edit_holder_name")
-    let editseatnum = document.querySelector("#edit_seat_number")
-    let editprice = document.querySelector("#edit_price")
+    let edit_ticketid = document.querySelector("#edit_ticket_id").value
+    let editevent = document.querySelector("#edit_event").value
+    let editgoldername = document.querySelector("#edit_holder_name").value
+    let editseatnum = document.querySelector("#edit_seat_number").value
+    let editprice = document.querySelector("#edit_price").value
 
     let url = `http://localhost:3000/Ticket/${id}`
 
