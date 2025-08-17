@@ -78,6 +78,7 @@ let openEditForm = async (id)=>{
 
 
         <button type="submit" onclick="finalEdita('${data.id}')">Submit</button>
+        
     </form>
     `
 
