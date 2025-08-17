@@ -91,7 +91,6 @@ let finalEdita = async (id)=>{
     let editprice = document.querySelector("#edit_price").value
 
     let url = `http://localhost:3000/Ticket/${id}`
-
     fetch(url,{method: "PUT",
         headers:{
             "content-type":"application/json"
