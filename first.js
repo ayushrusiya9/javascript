@@ -37,5 +37,7 @@ for(let i of person){
 
 
 
+
+
 let x = 5
 console.log(++x,x+2,x++)
