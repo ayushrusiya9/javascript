@@ -1,12 +1,23 @@
 // reverse a string without using any method
-function reverseString(s){
-    let s1 = ''
+// function reverseString(s){
+//     let s1 = ''
+//     for(let i of s){
+//         s1 = i + s1
+//     }
+//     return s1
+// }
+
+// let str = "ayush"
+// let r = reverseString(str)
+// console.log(r)
+
+let reverseString = (s) => {
+    let str = ''
+
     for(let i of s){
-        s1 = i + s1
+        str = i + str
     }
-    return s1
+    return str
 }
 
-let str = "ayush"
-let r = reverseString(str)
-console.log(r)
+console.log(reverseString("ayush"))

@@ -16,6 +16,8 @@ function checkPrime(n){
     return `Given number ${n} is prime number`;
 }
 
+
+
 let number = parseInt(prompt("Enter any number"))
 let result = checkPrime(number)
 alert(result)
