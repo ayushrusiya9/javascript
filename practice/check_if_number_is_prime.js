@@ -18,6 +18,7 @@ function checkPrime(n){
 
 
 
+
 let number = parseInt(prompt("Enter any number"))
 let result = checkPrime(number)
 alert(result)
