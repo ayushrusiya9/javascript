@@ -2,10 +2,17 @@
 let arr = [3,7,2,9,5]
 max_value = arr[0]
 
-for(let i = 0; i<= 5; i++){
-    if(max_value < arr[i]){
-        max_value = arr[i]
-    }
+// for(let i = 0; i<= 5; i++){
+//     if(max_value < arr[i]){
+//         max_value = arr[i]
+//     }
+// }
+
+let i =0;
+while(i <= 5){
+if(max_value < arr[i]){
+    max_value = arr[i]
+}
 }
 
 console.log(max_value)
