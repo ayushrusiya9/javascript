@@ -6,18 +6,18 @@ let arr2 = [4,5,6]
 let merge = [...arr1,...arr2]
 console.log(merge)
 
-// arr1.push(...arr2)
-// console.log(arr1)
+arr1.push(...arr2)
+console.log(arr1)
 
-//using loop
+using loop
 
-// let merge1 = []
-// for(let i = 0; i < arr1.length; i++){
-//     merge1.push(arr1[i])
-// }
+let merge1 = []
+for(let i = 0; i < arr1.length; i++){
+    merge1.push(arr1[i])
+}
 
-// for(let i = 0; i < arr2.length; i++){
-//     merge1.push(arr2[i])
-// }
+for(let i = 0; i < arr2.length; i++){
+    merge1.push(arr2[i])
+}
 
-// console.log(merge1)
+console.log(merge1)
