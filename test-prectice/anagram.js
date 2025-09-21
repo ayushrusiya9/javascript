@@ -16,6 +16,7 @@ for(let i = 0; i < arr1.length; i++){
         arr1[i+1] = temp
     }
 }
+
 for(let i = 0; i < arr2.length; i++){
     if(arr2[i] < arr2[i+1]){
         let temp = arr2[i]
