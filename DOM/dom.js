@@ -3,6 +3,7 @@ function AddText(){
     // let t = document.getElementById("text")
     let t = document.querySelector("#text")
 
+
     t.innerHTML = "This is <i>text</i> from Js."
     // t.innerText = "This is <i>text</i> from Js."
     t.style.color = "red"
