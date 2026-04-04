@@ -4,6 +4,7 @@ function remove(){
     if(b == "none"){
         a.style.display = "block"
     }else{
+
         a.style.display = "none"
     }
 }
