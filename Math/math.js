@@ -2,3 +2,5 @@
 console.log(Math.floor(1+Math.random()*6))
 console.log(Math.floor(1+Math.random()*6))
 console.log(Math.floor(1+Math.random()*3))
+console.log(Math.floor(1+Math.random()*6
+2))
